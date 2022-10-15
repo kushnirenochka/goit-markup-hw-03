@@ -1,0 +1,184 @@
+:root{
+    --primary-color:  #FFFFFF;
+}
+body { font-family: 'Roboto'; 
+    color: #212121;
+    }
+.header {background-color: var(--primary-color)}
+.logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+.logo a { color: #2196F3; text-decoration: none;}
+.logo b { color: #000000;}
+.navigation ul {list-style-type: none;}
+.navigation a {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+color:#212121;
+}
+.navigation a:hover { color: #2196F3;}
+.contact-header ul {list-style-type: none;}
+.contact-header a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:#757575;
+    text-decoration: none;
+}
+.contact-header a:hover { color: #2196F3;}
+/* CSS DO WEBSTUDIO */
+.main-message {background-color: #2F303A;}
+.main-message h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main-message .button {
+    background: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+    cursor: pointer
+    
+}
+.text {
+    background-color: var(--primary-color);
+}
+.text ul {list-style-type: none;}
+.text h4 {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.text p {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.5rem;
+    letter-spacing: 0.03em;
+}
+.pictures{background-color: var(--primary-color)}
+.pictures-index {list-style-type: none;}
+.pictures h2 {
+    font-size: 36px;
+    line-height: 1.71;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team {background-color: #F5F4FA;}
+.team ul {list-style-type: none;}
+.team h2 {
+    font-size: 36px;
+    line-height: 1.71;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team p {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+/* CSS DO PORTFOLIO */
+.portfolio-buttons {
+    background-color: var(--primary-color)
+}
+.portfolio-buttons ul {list-style-type: none;}
+.button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    text-align: center;
+    cursor: pointer;
+    background-color: #F5F4FA;
+    color: #212121;
+}
+.button:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.main-part{
+    background-color: var(--primary-color)
+}
+.main-part ul {list-style-type: none;}
+.main-part h3 {
+    font-size: 18px;
+    line-height: 2.25;
+    letter-spacing: 0.06em;
+}
+.main-part p {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+}
+/* CSS DO FOOTER */
+.footer {background: #2F303A;}
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;}
+.logo-footer a { color: #2196F3; text-decoration: none;}
+.logo-footer b {color:#FFFFFF}
+.address ul {list-style-type: none;}
+.location {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    font-style:normal; 
+}
+.mailto {
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-decoration-line: underline;
+    color: #FFFFFF99;
+
+}
+.mailto:hover { color: #2196F3;}
+.tel {
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #FFFFFF99;
+}
+.tel:hover { color: #2196F3;}
