@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio. Portfolio.</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
@@ -12,6 +16,7 @@
     <link rel="stylesheet" href="./css/css/styles.css">
 <body>
     <header class="header">
+        <div class="container top">
         <div class="logo"><span>
             <a href="./index.html" class="link">Web<b>Studio</b></a>
         </span>
@@ -28,10 +33,12 @@
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
+        </div>
         </div>  
     </header>
     <main>
-        <section class="portfolio-buttons">
+        <section class="main-part section">
+            <div class="container filters">
             <ul>
                 <li><button class="button" type="button">Wszystkie</button></li>
                 <li><button class="button" type="button">Strony</button></li>
@@ -39,8 +46,8 @@
                 <li><button class="button" type="button">Dizajn</button></li>
                 <li><button class="button" type="button">Marketing</button></li>
             </ul>
-        </section>
-        <section class="main-part">
+            </div>
+            <div class="container projects">
             <ul>
                 <li><img
                     src="./images/portfolio/technocrack.jpg"
@@ -107,6 +114,7 @@
                     <p>Aplikacja</p></li>
             
             </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">

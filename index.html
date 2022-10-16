@@ -2,6 +2,10 @@
 <html lang="pl">
 <head>
     <title>WebStudio. Efektywne rozwiązania dla waszego biznesu.</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
@@ -10,6 +14,7 @@
 </head>
 <body>
     <header class="header">
+        <div class="container top">
         <div class="logo"><span>
             <a href="./index.html" class="link">Web<b>Studio</b></a>
         </span>
@@ -26,34 +31,38 @@
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
+        </div>
         </div>  
     </header>
     <main>
-        <section class="main-message">
+    <section class="main-message section">
+        <div class="container">
         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU </h1>
         <button class="button" type="button">Zamów usługe</button>
-        </section>
-        <div  class="text">
+        </div>
+    </section>
+    <div class="text container">
         <ul>
-            <li>
+            <li class="item">
             <h4>LOREM IPSUM</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada<p>
             </li>
-            <li>
+            <li class="item">
             <h4>LOREM IPSUM</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada<p>
             </li>
-            <li>
+            <li class="item">
             <h4>LOREM IPSUM</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada<p>
             </li>
-            <li>
+            <li class="item">
             <h4>LOREM IPSUM</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada<p>
             </li>
         </ul>
         </div>
-        <section class="pictures">
+        <section class="pictures section">
+        <div class="container">
         <h2>Czym się zajmujemy</h2>
         <ul class="pictures-index">
             <li><img
@@ -74,45 +83,47 @@
                 width="370"
                 height="294"/>
             </li>
-
         </ul>
+        </div>
    </section>
-   <section class="team">
+   <section class="team section">
+    <div class="container">
         <h2>Nasz zespół</h2>
         <ul>
             <li><img
                 src="./images/index/product-designer.jpg"
                 alt="John Doe.Product Designer"
-                width="370"
-                height="294"/>
+                width="270"
+                height="260"/>
                 <h3>John Doe</h3>
                 <p>Product Designer</p>
             </li>
             <li><img
                 src="./images/index/frontend-developer.jpg"
                 alt="John Doe.Frontend Developer"
-                width="370"
-                height="294"/>
+                width="270"
+                height="260"/>
                 <h3>John Doe</h3>
                 <p>Frontend Developer</p>
             </li>
             <li><img
                 src="./images/index/marketing.jpg"
                 alt="John Doe.Marketing"
-                width="370"
-                height="294"/>
+                width="270"
+                height="260"/>
                 <h3>John Doe</h3>
                 <p>Marketing</p>
             </li>
             <li><img
                 src="./images/index/ul-designer.jpg"
                 alt="John Doe.UI Designer"
-                width="370"
-                height="294"/>
+                width="270"
+                height="260"/>
                 <h3>John Doe</h3>
                 <p>UI Designer</p>
             </li>
         </ul>
+    </div>
    </section>
 </main>
 <footer class="footer">
