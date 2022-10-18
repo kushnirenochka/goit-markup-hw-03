@@ -24,7 +24,6 @@ body { font-family: 'Roboto';
 .container.top {
     justify-content: space-between;
     align-items: center;
-    
 }
 .logo {
 font-family: 'Raleway';
@@ -105,7 +104,6 @@ letter-spacing: 0.03em;
     cursor: pointer;
     width: 200px;
     border-radius: 4px;
-    border-color: #2196F3;
 }
 .text.container {
     background-color: var(--primary-color);
@@ -147,12 +145,10 @@ letter-spacing: 0.03em;
 .pictures-index {
     list-style-type: none;
     display: flex;
-    flex-basis: calc((100%-60px)/3);
     gap: 30px;
     padding: 0px;
-
-
 }
+.pictures-index li {flex-basis: calc((100%-60px)/3);}
 .team {background-color: #F5F4FA;}
 .team > .container {flex-wrap: wrap;}
 .team h2 {
@@ -166,17 +162,13 @@ letter-spacing: 0.03em;
 .team ul {
     list-style-type: none;
     display: flex;
-    flex-basis: calc((100%-30px)/4);
     gap: 30px;
     padding: 0px;
 }
 .team > .container li {
+    flex-basis: calc((100%-30px)/4);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    width: 270px;
-    height: 368px;
-    left: 215px;
-    top: 1635px;
     background: #FFFFFF;
 }
 .team h3 {
@@ -234,7 +226,6 @@ letter-spacing: 0.03em;
 }
 .projects img { display: block;}
 .img-title {border: 1px solid #EEEEEE;}
-
 .container.projects h3 {
     font-size: 18px;
     line-height: 2.25;
