@@ -9,6 +9,7 @@ body { font-family: 'Roboto';
     height: 80px;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid #ECECEC;
 }
 .container {
     display: flex;
@@ -16,8 +17,6 @@ body { font-family: 'Roboto';
     margin: 0 auto;
     padding: 0 15px;
     justify-content: center;
-    text-align: center;
-
 }
 .section {
     padding: 94px 0;
@@ -44,12 +43,12 @@ letter-spacing: 0.03em;
     padding: 0;
 }
 .navigation a {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-text-decoration: none;
-color:#212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color:#212121;
 }
 .navigation a:hover { color: #2196F3;}
 .contact-header ul {
@@ -107,7 +106,6 @@ color:#212121;
     width: 200px;
     border-radius: 4px;
     border-color: #2196F3;
-    
 }
 .text.container {
     background-color: var(--primary-color);
@@ -228,34 +226,38 @@ color:#212121;
 }
 .container.projects ul{
     list-style-type: none;
-    padding: 0;
+    padding: 0 15px;
     display: flex;
     flex-wrap: wrap;
     flex-basis: 1200px;
-    border: 1px;
-    border-color: #eeeeee; /* nie działa */
+    gap: 30px; 
 }
-  .container.projects li {
-    gap: 30px;
-    flex-basis: calc((100%-60px)/3);
-}
+.projects img { display: block;}
+.img-title {border: 1px solid #EEEEEE;}
+
 .container.projects h3 {
     font-size: 18px;
     line-height: 2.25;
     letter-spacing: 0.06em;
+    margin: 20px 24px 4px;
 }
 .container.projects p {
     color: #757575;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
+    margin: 4px 24px 20px;
 }
 /* CSS DO FOOTER */
 .footer {
     background: #2F303A;
     height: 252px;
-    padding: 60px 282.222px;}
+    padding: 60px 0px;
+}
+.footer>.container {
+    width: 1200px;
+    flex-direction: column;
+}
 .logo-footer {
     font-family: 'Raleway';
     font-weight: 700;
@@ -269,32 +271,32 @@ color:#212121;
 .address ul {
     list-style-type: none;
     padding: 0px ;
+    margin: 0px;
+    height: 81px;
 }
-.location {
+.address li {
     font-weight: 400;
     font-size: 14px;
+
+}
+.location {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     font-style:normal;
     margin-bottom: 9px;
 }
+.address li:nth-child(2) {margin-bottom: 9px;}
 .mailto {
-    font-weight: 400;
-    font-size: 14px;
     font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
     text-decoration-line: underline;
     color: #FFFFFF99;
-    margin-bottom: 9px;
-    /* nie działa */
 }
 .mailto:hover { color: #2196F3;}
 .tel {
-    font-weight: 400;
-    font-size: 14px;
     font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
