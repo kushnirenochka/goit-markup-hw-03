@@ -12,18 +12,22 @@ body { font-family: 'Roboto';
     border-bottom: 1px solid #ECECEC;
 }
 .container {
-    display: flex;
-    flex-basis: 1200px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    justify-content: center;
 }
 .section {
     padding: 94px 0;
 }
 .container.top {
+    display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.logo-nav { 
+    display: flex;
+    align-items: center;
+    gap: 93px; 
 }
 .logo {
 font-family: 'Raleway';
@@ -37,8 +41,8 @@ letter-spacing: 0.03em;
 .navigation ul {
     list-style-type: none;
     display: flex;
-    width: 254px;
-    justify-content: space-between;
+    gap: 46px;
+    justify-content: flex-start;
     padding: 0;
 }
 .navigation a {
@@ -53,9 +57,9 @@ letter-spacing: 0.03em;
 .contact-header ul {
     list-style-type: none;
     display: flex;
+    justify-content: flex-end;
+    gap: 50px;
     padding: 0px;
-    width: 295px; /* chciałam zrobić przez flex-basis - nie działa*/
-    justify-content: space-between;
 }
 .contact-header a {
     font-weight: 500;
@@ -77,6 +81,7 @@ letter-spacing: 0.03em;
     justify-content: center;
 }
 .main-message .container {
+    display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -109,15 +114,15 @@ letter-spacing: 0.03em;
     background-color: var(--primary-color);
 }
 .text ul {
-    box-sizing: border-box;
-    list-style-type: none;
     display: flex;
-    flex-basis: 1200px;
+    justify-content: center;
+    list-style-type: none;
     flex-wrap: wrap;
-    justify-content:space-between;
+    gap: 30px;
+    flex-basis: 1200px;
     padding:0;}
 .item { 
-    flex-basis: calc((100% - 90px) / 4);}
+    flex-basis: 270px}
 .text h4 {
     font-size: 14px;
     line-height: 1.14;
@@ -131,14 +136,17 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
 }
 .pictures{background-color: var(--primary-color)}
-.pictures > .container {flex-wrap: wrap;}
-.pictures > .container h2 {
-    display: block;
-    flex-basis: 1170px;
+.pictures > .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pictures h2 {
+    width: 1200px;
     font-size: 36px;
     line-height: 1.71;
-    text-align: center;
     letter-spacing: 0.03em;
+    text-align: center;
     margin-right: auto;
     margin-left: auto;
 }
@@ -146,27 +154,32 @@ letter-spacing: 0.03em;
     list-style-type: none;
     display: flex;
     gap: 30px;
-    padding: 0px;
+    padding: 0;
 }
-.pictures-index li {flex-basis: calc((100%-60px)/3);}
+.pictures-index li {flex-basis: 370px;}
 .team {background-color: #F5F4FA;}
-.team > .container {flex-wrap: wrap;}
+.team > .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .team h2 {
+    width: 1200px;
     font-size: 36px;
     line-height: 1.71;
-    text-align: center;
     letter-spacing: 0.03em;
-    display: block;
-    flex-basis: 1170px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .team ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
-    padding: 0px;
+    padding: 0 15px;
 }
 .team > .container li {
-    flex-basis: calc((100%-30px)/4);
+    flex-basis: 270px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
@@ -191,10 +204,10 @@ letter-spacing: 0.03em;
     background-color: var(--primary-color)
 }
 .container.filters ul{
-    list-style-type: none;
     display: flex;
-    flex-basis: 572px;
-    justify-content: space-between;
+    justify-content: center;
+    list-style-type: none;
+    gap: 8px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     padding: 0px;
 }
@@ -216,13 +229,18 @@ letter-spacing: 0.03em;
     color: #FFFFFF;
     background-color: #2196F3;
 }
+.container.projects {
+    box-sizing: content-box;
+}
 .container.projects ul{
-    list-style-type: none;
-    padding: 0 15px;
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 1200px;
+    list-style-type: none;
+    padding: 0 15px;
     gap: 30px; 
+}
+.container.projects ul{
+    flex-basis: 370px;
 }
 .projects img { display: block;}
 .img-title {border: 1px solid #EEEEEE;}
