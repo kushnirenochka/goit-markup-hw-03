@@ -110,6 +110,7 @@ letter-spacing: 0.03em;
     width: 200px;
     border-radius: 4px;
 }
+.section.atuty { padding-bottom: 0;}
 .text.container {
     background-color: var(--primary-color);
 }
@@ -147,14 +148,15 @@ letter-spacing: 0.03em;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 .pictures-index {
     list-style-type: none;
     display: flex;
     gap: 30px;
     padding: 0;
+    margin: 0;
 }
 .pictures-index li {flex-basis: 370px;}
 .team {background-color: #F5F4FA;}
@@ -169,14 +171,15 @@ letter-spacing: 0.03em;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 .team ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
     padding: 0 15px;
+    margin: 0;
 }
 .team > .container li {
     flex-basis: 270px;
@@ -210,6 +213,8 @@ letter-spacing: 0.03em;
     gap: 8px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     padding: 0px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 .button {
     font-family: inherit;
