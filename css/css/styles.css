@@ -95,6 +95,8 @@ letter-spacing: 0.03em;
     color: #FFFFFF;
     width: 696px;
     text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 .main-message .button {
     background: #2196F3;
